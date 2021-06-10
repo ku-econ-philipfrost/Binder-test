@@ -1,15 +1,13 @@
-name: base
+name: example-environment
 channels:
-  - defaults
+  - conda-forge
 dependencies:
-  - conda
-  - python=3.8
-  - python.app
-  - conda-env
-  - conda-build
-  - conda-verify
-  - _ipyw_jlab_nb_ext_conf
-  - anaconda
-  - anaconda-navigator
-  - navigator-updater
-prefix: /Users/philipfrost/opt/anaconda3
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
